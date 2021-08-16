@@ -4,7 +4,7 @@ class Atm():
         self.uinput = input("Enter your PIN number: ")
         
         if(self.uinput != self.PIN):
-            print("Wrong Pin Number")
+            print("Incorrect Pin")
 
         else:
             uinput2 = self.uinput2 = input("Enter Your Bank Balance: ")
